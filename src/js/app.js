@@ -1,11 +1,5 @@
-class Users{
+import User from './user'
 
-	getUsers(){
-		console.info('Users::getUsers()');
-		
-	}
-}
+let user = new User(); 
 
-var users = new Users(); 
-
-users.getUsers();
+user.getUsers();
